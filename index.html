@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Javier Ponferrada López">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+  <script src="js/jquery_mouse_scroll.js" charset="utf-8"></script>
+  <title>Portfolio_horizontal</title>
+  <script>
+	$(function(){
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});
+	});
+	</script>
+</head>
+<body>
+  <div class="content">
+    <div class="target target_portada">
+      <div class="content_target">
+        <a class="title_portada">Bienvenido</a>
+        <a class="sub_title_portada">Bienvenido</a>
+      </div>
+    </div>
+    <div class="target target_perfil">
+      <div class="content_target">
+        <img class="img_perfil" src="img/img_perfil.png" alt="">
+
+        <div class="contenido_perfil">
+          <p class="nombre_perfil">Javier Ponferrada López</p>
+          <div class="descripcion_perfil">
+              <p>Técnico Informático en Sistemas y Redes.<br>Diseñador de mi futuro y Programador de mi presente.</p>
+          </div>
+
+          <p class="anio">©2017</p>
+
+          <div class="content_social_network">
+            <a href="https://twitter.com/jponferrada26" target="_blank" class="social_network"><img src="img/social-twitter-circular-button.png" alt=""></a>
+            <a href="https://codepen.io/jponferrada/" class="social_network" target="_blank"><img src="img/codepen.png" alt=""></a>
+            <a href="https://github.com/jponferrada26" class="social_network" target="_blank"><img src="img/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/jponferrada/" class="social_network" target="_blank"><img src="img/linkdin.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="target target_skill">
+      <div class="content_target content_target_skill">
+          <div class="content_title_skill">
+            <code>&lt;HABILIDADES/&gt;</code>
+          </div>
+          <div class="content_skills">
+            <div class="skill">
+              <p>HTML</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>CSS</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>JS</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>JAVA</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="content_skills">
+            <div class="skill">
+              <p>PHP</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 40%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>MYSQL</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>BOOSTRAP</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 50%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>PYTHON</p>
+              <div class="bar_skill">
+                <div class="inside_bar_skill" style="width: 50%;"></div>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
+    </div>
+
+    <div class="target target_proyect ">
+      <div class="content_target content_target_proyect">
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+
+          <div class="proyecto" ontouchstart="this.classList.toggle('hover');">
+            <a href="#">
+              <figure class="tarjeta">
+                <div class="frontal" style="background-image: url(img/background_proyect.png);">
+
+                </div>
+                <figcaption class="contenido_proyecto">
+                  <h1>Nombre proyecto</h1>
+                  <hr>
+                  <p>descripción proyecto...</p>
+                </figcaption>
+
+              </figure>
+            </a>
+          </div>
+      </div>
+    </div>
+
+    <div class="target target_contact ">
+      <div class="content_target content_target_contact">
+        <p class="title_contact">CONTACTA CONMIGO</p>
+        <form class="form" action="php/login.php" method="post">
+          <div class="content_input">
+            <label class="labelnombre" for="usuario">Usuario</label>
+            <input id="nombre" class="input" type="text" name="nombre" required/>
+          </div>
+          <div class="content_input">
+            <label class="labelcorreo" for="usuario">Correo</label>
+            <input id="correo" class="input" type="email" name="correo" required/>
+          </div>
+          <div class="content_input content_input_mensaje">
+            <label class="labelmensaje" for="usuario">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+          <input class="input_submit" type="submit" name="btn_enviar"/>
+        </form>
+      </div>
+
+    </div>
+    <script type="text/javascript">
+       $( "#nombre" ).focus(function() {
+         $("label.labelnombre").css({"top":"0px"});
+       });
+
+       $( "#correo" ).focus(function() {
+         $("label.labelcorreo").css({"top":"0px"});
+       });
+       $( "#mensaje" ).focus(function() {
+         $("label.labelmensaje").css({"top":"0px"});
+       });
+
+
+
+     </script>
+  </div>
+</body>
+</html>
